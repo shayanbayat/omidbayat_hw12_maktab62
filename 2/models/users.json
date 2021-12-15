@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "username": "ali",
+        "password": "12345",
+        "email": "ali.fakoor13@gmail.com",
+        "gender": "male",
+        "isLoggedIn": false
+    }
+]

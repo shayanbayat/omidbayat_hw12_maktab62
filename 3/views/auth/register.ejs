@@ -1,0 +1,101 @@
+<%- include('./header') %>
+
+<!-- Start main-content -->
+<main class="main-content dt-sl mt-4 mb-3">
+    <div class="container main-container">
+
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-12 mx-auto">
+                <div class="form-ui dt-sl dt-sn pt-4"> 
+                    <div class="section-title title-wide mb-1 no-after-title-wide">
+                        <h2 class="font-weight-bold">ثبت نام در دیدیکالا</h2>
+                    </div>
+                    <div class="message-light <%= messages.length ? '' : 'd-none' %>">
+                        <ul style="list-style: none;">
+                            <% for (const msg of messages) { %>
+                                <li><%= msg %></li>
+                            <% } %>
+                        </ul>
+                    </div>
+                    <form action="register" method="post" style="margin: unset; max-width: unset;">
+                        <div class="row mb-3">
+                            <div class="col-12 col-md-6">
+                                <div class="form-row-title">
+                                    <h3>نام کاربری</h3>
+                                </div>
+                                <div class="form-row with-icon">
+                                    <input type="text" class="input-ui pr-2" id="username" name="username" required placeholder="نام کاربری دلخواه خود را وارد نمایید">
+                                    <i class="mdi mdi-account-circle-outline"></i>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-row-title">
+                                    <h3>ایمیل</h3>
+                                </div>
+                                <div class="form-row with-icon">
+                                    <input type="email" class="input-ui pr-2" id="email" name="email" required placeholder="آدرس ایمیل خود را وارد نمایید">
+                                    <i class="mdi mdi-mail"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-row-title">
+                                    <h3>رمز عبور</h3>
+                                </div>
+                                <div class="form-row with-icon">
+                                    <input type="password" class="input-ui pr-2" id="password" name="password" required placeholder="رمز عبور خود را وارد نمایید">
+                                    <i class="mdi mdi-lock-open-variant-outline"></i>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-row-title">
+                                    <h3>جنسیت</h3>
+                                </div>
+                                <div class="form-row with-icon">
+                                    <ul class="product-variants float-right ml-3">
+                                        <li class="ui-variant">
+                                            <label class="ui-variant ui-variant--color">
+                                                <input type="radio" value="male" name="gender" class="variant-selector"
+                                                    checked>
+                                                <span class="ui-variant--check" style="padding-right: 10px;">آقا</span>
+                                            </label>
+                                        </li>
+                                        <li class="ui-variant">
+                                            <label class="ui-variant ui-variant--color">
+                                                <input type="radio" value="female" name="gender" class="variant-selector">
+                                                <span class="ui-variant--check" style="padding-right: 10px;">خانم</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row mt-2">
+                            <div class="custom-control custom-checkbox float-right mt-2">
+                                <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                <label class="custom-control-label text-justify" for="customCheck3">
+                                    <a href="#">حریم خصوصی</a> و <a href="#">شرایط و قوانین</a> استفاده از سرویس های سایت دیدیکالا را مطالعه نموده و با کلیه موارد آن موافقم.
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-row mt-3">
+                            <button class="btn-primary-cm btn-with-icon mx-auto w-100">
+                                <i class="mdi mdi-account-circle-outline"></i>
+                                 ثبت نام در دیدیکالا
+                            </button>
+                        </div>
+                        <div class="form-footer text-right mt-3">
+                            <span class="d-block font-weight-bold">قبلا ثبت نام کرده اید؟</span>
+                            <a href="login" class="d-inline-block mr-3 mt-2">وارد شوید</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+<!-- End main-content -->
+
+<%- include('./footer') %>

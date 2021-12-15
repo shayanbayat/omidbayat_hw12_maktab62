@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "پوست سمور",
+        "price": 20000,
+        "image": "/img/samor.jpg",
+        "description": "پوست سمور فرد اعلا کاملا سالم"
+    },
+    {
+        "id": 2,
+        "title": "پوست گاو",
+        "price": 23000,
+        "image": "/img/cow.jpg",
+        "description": "پوست گاو با کیفیت عالی"
+    },
+    {
+        "id": 3,
+        "title": "پوست مار کبری",
+        "price": 25000,
+        "image": "/img/kobra.jpg",
+        "description": "پوست مار عالی جهت ساختن کمربند"
+    },
+    {
+        "id": 4,
+        "title": "پکیج ترک افسردگی",
+        "price": 250052,
+        "image": "/img/cat.jpg",
+        "description": "بهترین محصول در جهت رفع افسردگی و بی حوصلگی"
+    },
+    {
+        "id": 5,
+        "title": "پکیچ ترک اعتیاد",
+        "price": 49000,
+        "image": "/img/tark.jpg",
+        "description": "اعتیاد جرم و معتاد مجرم نیست بلکه این یک بیماریست در راستای رفع ان قدم برداریم..."
+    },
+    {
+        "id": 6,
+        "title": "آموزش کنگفو",
+        "price": 119000,
+        "image": "/img/kongfu.jpg",
+        "description": "اموزش کامل کنگفو استاد شیفو"
+    },
+    {
+        "id": 7,
+        "title": "پوست شیر اصل افریقا",
+        "price": 139000,
+        "image": "/img/lion.jpg",
+        "description": "پوست شیر یال دار افریقایی"
+    },
+    {
+        "id": 8,
+        "title": "پوست روباه",
+        "price": 239000,
+        "image": "/img/img.jpg",
+        "description": "پوست روباه فرد اعلا"
+    }
+]

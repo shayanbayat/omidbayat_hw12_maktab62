@@ -1,0 +1,1 @@
+[{"id":1,"username":"ali","password":"12345","email":"admin@maktab.com","gender":"male","isLoggedIn":true,"role":"admin"},{"id":2,"username":"amir","password":"asdf1234","email":"a.mirshayeste83@gmail.com","gender":"male","isLoggedIn":true,"role":"user"}]
