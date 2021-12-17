@@ -1,11 +1,11 @@
 // modules
 const express = require('express')
 const { join } = require('path')
-const router = require('./routes')
+const router = require('./routes/router')
 
 // create express app
 const app = express()
-const PORT = 1202
+const PORT = 5500
 
 // set ejs engine
 app.set('view engine', 'ejs')
